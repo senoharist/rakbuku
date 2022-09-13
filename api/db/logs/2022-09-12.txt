@@ -1,0 +1,7 @@
+Time : 15:50:01
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_rakbuku.categories' doesn't exist
+Raw SQL : insert into categories  (cat_name,cat_description,cat_created,cat_modified)  values ('game','permainan','2022-09-12 15:50:01','2022-09-12 15:50:01')
+
+Time : 15:49:46
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_rakbuku.categories' doesn't exist
+Raw SQL : insert into categories  (cat_name,cat_description,cat_created,cat_modified)  values ('game','permainan, sulap, tradisional','2022-09-12 15:49:46','2022-09-12 15:49:46')
