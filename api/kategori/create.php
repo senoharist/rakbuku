@@ -28,7 +28,7 @@ $exec = $db->insert('kategori', $datas);
 if (!$exec) {
     $arr = array();
     $arr['info'] = 'error';
-    $arr['msg'] = 'Query tidak berhasil dijalankan.';
+    $arr['msg'] = 'Query tidak berhasil dijalankan.coba cek';
 
     echo json_encode($arr);
     exit();
