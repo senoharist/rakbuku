@@ -9,7 +9,7 @@ include 'inc.php';
     </head>
     <script type="text/javascript">
         function deleteData(cat_id) {
-            var cfm = confirm("Apakah anda yakin akan menghapus data ini?");
+            var cfm = confirm("Apakah anda yakin akan menghapus data ini? pastikan aman asana");
             if (cfm) {
                 window.location.href='kategori-del.php?cat_id='+cat_id;
             }
