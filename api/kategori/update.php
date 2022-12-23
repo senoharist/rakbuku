@@ -12,7 +12,7 @@ $cat_description = isset($_POST['cat_description']) ? $_POST['cat_description'] 
 if (empty($cat_id) OR empty($cat_name)) {
     $arr = array();
     $arr['info'] = 'error';
-    $arr['msg'] = 'ID atau nama Kategori tidak ada';
+    $arr['msg'] = 'ID atau nama Kategori tidak ada, coba pastikan lagi';
 
     echo json_encode($arr);
     exit();
